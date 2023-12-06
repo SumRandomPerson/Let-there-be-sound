@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 9109643520517576053}
   - component: {fileID: 9109643520517576055}
   m_Layer: 0
-  m_Name: obstacle
-  m_TagString: Untagged
+  m_Name: Obstacle
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
