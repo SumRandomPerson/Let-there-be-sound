@@ -11,8 +11,13 @@ GameObject:
   - component: {fileID: 4434221626337540}
   - component: {fileID: 33264041529804706}
   - component: {fileID: 23612501818743164}
+<<<<<<< Updated upstream
   - component: {fileID: 6788348570734225304}
   - component: {fileID: -4375504107049020616}
+=======
+  - component: {fileID: -1567076713231219631}
+  - component: {fileID: -330970945793390079}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Prob_Rock_Boulder_01
   m_TagString: Obstacle
@@ -83,7 +88,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!114 &6788348570734225304
+=======
+--- !u!114 &-1567076713231219631
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a764cc426d54631a2d00c362d35890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!65 &-4375504107049020616
+=======
+--- !u!65 &-330970945793390079
+>>>>>>> Stashed changes
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

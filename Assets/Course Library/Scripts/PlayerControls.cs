@@ -55,7 +55,7 @@ public class PlayerControls : MonoBehaviour
             dirtParticle.Stop();
             playerAudio.PlayOneShot(jumpSound, 1.0f);
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isOnGround = false;
+            isOnGround = true;
             playerAnim.SetTrigger("Jump_trig");
             doubleJumpUsed = false;
         }

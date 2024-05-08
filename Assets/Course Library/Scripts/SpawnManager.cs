@@ -5,7 +5,11 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] obstaclePrefabs;
+<<<<<<< Updated upstream
     private Vector3 spawnPos = new Vector3(25, 0, 0);
+=======
+    public Vector3 spawnPos = new Vector3(25, 0, 0);
+>>>>>>> Stashed changes
     private float startDelay = 2;
     private float repeatRate = 2;
     private PlayerControls playerControllerScripts;
@@ -21,8 +25,13 @@ public class SpawnManager : MonoBehaviour
     {
         if (playerControllerScripts.gameOver == false)
         {
+<<<<<<< Updated upstream
             randomObstacle = Random.Range(0, obstaclePrefabs.Length);
             Instantiate(obstaclePrefabs[randomObstacle], spawnPos, obstaclePrefabs[randomObstacle].transform.rotation);
+=======
+            int obstacleIndex = Random.Range(0, obstaclePrefabs.Length);
+            Instantiate(obstaclePrefabs[obstacleIndex], new Vector3(25, 0, 0) , obstaclePrefabs[obstacleIndex].transform.rotation);
+>>>>>>> Stashed changes
         }
     }
 
